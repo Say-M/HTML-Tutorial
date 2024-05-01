@@ -6,20 +6,55 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- ! Heading Tag -->
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <!-- ! Ordered List -->
+    <ol style="list-style-type: disc">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
 
-    <!-- ! Paragraph Tag -->
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores dolore
-      quo, libero consequuntur eaque tenetur praesentium, velit dignissimos
-      totam voluptatibus possimus. Praesentium ducimus eveniet dolores repellat.
-      Impedit doloribus necessitatibus excepturi.
-    </p>
+    <!-- ! Unordered List -->
+    <ul style="list-style-type: decimal">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+
+    <!-- ! Nested List -->
+    <ol>
+      <li>
+        One
+        <ul>
+          <li>a</li>
+          <li>
+            b
+            <ul>
+              <li>1</li>
+              <li>2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
+
+    <ul>
+      <li>
+        One
+        <ol>
+          <li>a</li>
+          <li>
+            b
+            <ol>
+              <li>1</li>
+              <li>2</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
   </body>
 </html>
