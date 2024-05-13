@@ -3,20 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML Table</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    <!-- ! img tag for online -->
-    <img
-      width="300"
-      alt="This is a picture of nature"
-      src="https://images.unsplash.com/photo-1420593248178-d88870618ca0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D"
-    />
-    <!-- ! image tag for local -->
-    <img
-      width="600"
-      alt="HTML"
-      src="./assets/images/1. HTML Tutorial Thumbnail.jpg"
-    />
+    <!-- ! table, tr, td, th tags -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Sayem</td>
+          <td>example@mail.com</td>
+          <td>+0004234</td>
+        </tr>
+        <tr>
+          <td>example2@mail.comfsdfsfsfdsfs</td>
+          <td>+0001342</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Footer 1</td>
+          <td>Footer 3</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
